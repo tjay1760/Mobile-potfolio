@@ -12,7 +12,6 @@
     background-image: url(/media/Light.png);
     width: 375px;
     height: 44px;
-    margin-left: 0;
   }
 
   .line {
@@ -37,7 +36,7 @@
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    width: 327px;
+    max-width: 95%;
     height: 146px;
     margin-left: 24px;
     margin-right: 24px;
