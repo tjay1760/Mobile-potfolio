@@ -27,9 +27,7 @@
 
 # 📖 [Mobile portfolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Hello-Microverse]** The project is a landing page of my mobile portfolio.
+The project is a landing page of my mobile portfolio. The page gives a brief personal introduction and provides a link to my social media profiles. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,8 +39,9 @@ HTML,CSS
 
 > Describe between 1-3 key features of the application.
 
-- About me
+-About me
 -navigation
+-Social media links
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,8 +56,6 @@ HTML,CSS
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -98,7 +95,7 @@ You can deploy this project using:
 
 👤 **John Thiongo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub:https://github.com/tjay1760
 - LinkedIn: https://www.linkedin.com/feed/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -109,8 +106,9 @@ You can deploy this project using:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] landing page
-- [ ] navigation bar
+- [ ] About me page
+- [ ] contact me page
+- [ ] my projects page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,8 +126,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project give your valuable comments.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -137,8 +133,6 @@ If you like this project give your valuable comments.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank Microverse. 
 
