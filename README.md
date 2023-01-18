@@ -57,6 +57,7 @@ HTML,CSS
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+> Describe how a new developer could make use of your project.
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -125,6 +126,7 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
+
 
 If you like this project give your valuable comments.
 
