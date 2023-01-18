@@ -1,9 +1,6 @@
-h1 {
-  color: yellowgreen;
-}
-
-section {
-  position: absolute;
+.content {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 450px) {
@@ -32,25 +29,23 @@ section {
   }
 
   #about {
-    margin-top: 268px;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    width: 100%;
+    width: 95%;
   }
 
   #greeting {
-    margin-top: 56px;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-size: 40px;
     line-height: 52px;
-    width: 100%;
     height: 150px;
     font-weight: 700;
+    width: 100%;
   }
 
   #connect {
@@ -62,9 +57,5 @@ section {
     font-size: 16px;
     line-height: 24px;
     color: #7f8cff;
-  }
-
-  #socials {
-    margin-top: 444px;
   }
 }
