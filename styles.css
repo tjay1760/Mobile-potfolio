@@ -27,7 +27,7 @@
     width: 100%;
     height: 44px;
     margin-left: 24px;
-    margin-right:24px;
+    margin-right: 24px;
   }
 
   #about {
@@ -38,10 +38,9 @@
     line-height: 24px;
     color: #344563;
     width: 327px;
-    height:146px;
+    height: 146px;
     margin-left: 24px;
-    margin-right:24px;
-
+    margin-right: 24px;
   }
 
   #greeting {
@@ -53,7 +52,7 @@
     font-weight: 700;
     width: 327px;
     margin-left: 24px;
-    margin-right:24px;
+    margin-right: 24px;
   }
 
   #connect {
@@ -66,12 +65,14 @@
     line-height: 24px;
     color: #7f8cff;
   }
-  #socials{
+
+  #socials {
     margin-left: 24px;
-    margin-right:24px;
+    margin-right: 24px;
   }
 }
-#project-title{
-    font-size: 32px;
-    font-weight:700
+
+#project-title {
+  font-size: 32px;
+  font-weight: 700;
 }
