@@ -3,15 +3,9 @@
   flex-direction: column;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   body {
     background-image: url("media/header-shapes mobile.png");
-  }
-
-  #status-bar {
-    background-image: url(/media/Light.png);
-    width: 375px;
-    height: 44px;
   }
 
   .line {
@@ -22,7 +16,7 @@
 
   header {
     display: flex;
-    gap: 195px;
+    gap: 200px;
     width: 100%;
     height: 44px;
     margin-left: 24px;
@@ -36,22 +30,26 @@
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    max-width: 95%;
+    max-width: 100%;
     height: 146px;
     margin-left: 24px;
     margin-right: 24px;
   }
 
   #greeting {
+    height: 150px;
+    font-weight: 700;
+    width: 327px;
+    max-width: 100%;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  #greeting h1 {
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-size: 40px;
     line-height: 52px;
-    height: 150px;
-    font-weight: 700;
-    width: 327px;
-    margin-left: 24px;
-    margin-right: 24px;
   }
 
   #connect {
@@ -69,6 +67,14 @@
     margin-left: 24px;
     margin-right: 24px;
   }
+}
+
+#social-icons {
+  display: flex;
+}
+
+#social-icons img {
+  margin: 5px;
 }
 
 #project-title {
