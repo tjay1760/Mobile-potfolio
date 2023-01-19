@@ -66,14 +66,19 @@
   #socials {
     margin-left: 24px;
     margin-right: 24px;
+    margin-bottom: 0;
   }
 }
 
 #social-icons {
   display: flex;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 0;
+  padding: 0;
 }
 
-#social-icons img {
+#social-icons li {
   margin: 5px;
 }
 
