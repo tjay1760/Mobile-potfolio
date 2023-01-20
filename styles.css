@@ -7,6 +7,8 @@
   .all-content {
     margin-bottom: 114px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
   }
 
   .content {
@@ -83,6 +85,7 @@
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 0;
+    margin-top: 12px;
   }
 }
 
@@ -306,8 +309,9 @@ button:active {
   align-items: center;
   justify-content: center;
   padding: 0;
-
-  /* margin:-8px; */
+  box-sizing: content-box;
+  padding-right: 0;
+  margin-right: 0;
 }
 
 #contact-me {
