@@ -357,5 +357,9 @@ button:active {
 }
 
 .get-in-touch {
+  margin-top: 0%;
   margin-left: 0;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 24px;
 }
