@@ -1,14 +1,16 @@
 @media only screen and (min-width: 768px) {
   body {
     background-color: #e5e5e5;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
   }
-#last{
-  height:20px;
-  width:100%;
-  background-color: #000;
-}
+
+  #last {
+    height: 20px;
+    width: 100%;
+    background-color: #000;
+  }
+
   .all-content {
     margin-bottom: 142px;
   }
