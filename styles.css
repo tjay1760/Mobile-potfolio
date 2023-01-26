@@ -5,6 +5,14 @@
     padding: 0;
   }
 
+  img {
+    transition: transform 1s ease-in-out;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+
   .all-content {
     margin-bottom: 142px;
   }
