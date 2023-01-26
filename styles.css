@@ -5,12 +5,6 @@
     padding: 0;
   }
 
-  #last {
-    height: 20px;
-    width: 100%;
-    background-color: #000;
-  }
-
   .all-content {
     margin-bottom: 142px;
   }
@@ -106,6 +100,9 @@
   .desktop-work {
     display: grid;
     justify-content: center;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-top: 180px;
   }
 
   .work {
@@ -239,6 +236,10 @@
     color: #fff;
   }
 
+  .uber {
+    margin-bottom: 25px;
+  }
+
   .about-group {
     display: grid;
     grid-template-columns: 3fr 4fr;
@@ -246,8 +247,10 @@
     border-top-right-radius: 100px;
     width: 100%;
     margin-left: 0%;
-    height: 680px;
+    height: 700px;
     position: relative;
+    z-index: -1;
+    bottom: -85px;
   }
 
   .about {
@@ -345,7 +348,7 @@
     align-items: center;
     border-top-left-radius: 100px;
     position: relative;
-    top: -90px;
+    z-index: 4;
   }
 
   #contact-me {
@@ -373,11 +376,11 @@
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     height: 48px;
-    width: 327px;
+    width: 447px;
   }
 
   .my-message {
-    width: 327px;
+    width: 447px;
     height: 170px;
     border-radius: 8px;
     background: #fff;
@@ -391,6 +394,12 @@
     font-weight: 500;
     letter-spacing: 0.03em;
     line-height: 24px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
