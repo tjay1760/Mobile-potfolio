@@ -9,7 +9,6 @@
     <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap' rel='stylesheet'>
 </head>
 <body>
-    <section class ="content all-content">
     <header>
         <a id="logo">
             <img src="./media/My Logo.png">
@@ -19,28 +18,37 @@
             <div class="line"></div>
             <div class="line"></div>
         </nav>
+        <ul class="desk-nav">
+            <li class="desk-nav-item"><a href="!#" class="nav-link">Portfolio</a></li>
+            <li class="desk-nav-item"><a href="!#" class="nav-link">About</a></li>
+            <li class="desk-nav-item"><a href="!#" class="nav-link">Contact</a></li>
+          </ul>
     </header>
-    <div id="greeting">
-        <h1>I'm John Glad to see you</h1>
+    <section class ="landing all-content">       
+    <div class="info-box">
+        <div id="greeting">
+            <h1>I'm John Glad to see you</h1>
+        </div>
+        <div id="about">
+            <p>
+                I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+            </p>
+        </div>
+        <div id="socials">
+            <h2 id="connect">LET'S CONNECT</h2>
+        </div>    
+    <ul id="social-icons"> 
+        <li><a href="https://twitter.com/hombr_el"> <img src="./media/Twitter.svg"></a></li>
+        <li><a href="https://www.linkedin.com/in/john-thiongo-10484347/"> <img src="./media/linkedin.png"></a></li>
+        <li><a href="https://medium.com/@tjaymurianki"> <img src="./media/medium.svg"></a></li>
+        <li><a href="https://github.com/tjay1760"> <img src="./media/github.svg"></a></li>
+        <li><a href="https://angel.co/"> <img src="./media/Vector (3).svg"></a></li>
+    </ul>
+            
     </div>
-    <div id="about">
-        <p>
-            I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-        </p>
-    </div>
-    <div id="socials">
-        <h2 id="connect">LET'S CONNECT</h2>
-    </div>    
-<ul id="social-icons"> 
-    <li><a href="https://twitter.com/hombr_el"> <img src="./media/Twitter.svg"></a></li>
-    <li><a href="https://www.linkedin.com/in/john-thiongo-10484347/"> <img src="./media/linkedin.png"></a></li>
-    <li><a href="https://medium.com/@tjaymurianki"> <img src="./media/medium.svg"></a></li>
-    <li><a href="https://github.com/tjay1760"> <img src="./media/github.svg"></a></li>
-    <li><a href="https://angel.co/"> <img src="./media/Vector (3).svg"></a></li>
-</ul>
-                
+            
     </section>
-    <section id ="my-works">
+    <section id ="my-works" class="mobile-works">
     <div class="all-content">
         
             <img src="./media/Snapshoot Portfolio.png">
@@ -146,43 +154,150 @@
 
 </div>
 </section>
-<section class="about all-content">
-    <h2 id="about-me">About Myself</h2>
-    <p id="about-myself">Hello I'm a software developer! I can help you build a product , feature or website Look
-      through some of my work and experience! If you like what you see and have a project you need coded, don't
-      hesitiate to contact me.</p>
-      <div id="socials">
-        <h2 id="connect">LET'S CONNECT</h2>
-    </div>  
-    <ul id="social-icons"> 
-        <li><a href="https://twitter.com/hombr_el"> <img src="./media/Twitter.svg"></a></li>
-        <li><a href="https://www.linkedin.com/in/john-thiongo-10484347/"> <img src="./media/linkedin.png"></a></li>
-        <li><a href="https://medium.com/@tjaymurianki"> <img src="./media/medium.svg"></a></li>
-        <li><a href="https://github.com/tjay1760"> <img src="./media/github.svg"></a></li>
-        <li><a href="https://angel.co/"> <img src="./media/Vector (3).svg"></a></li>
-    </ul>
-    <button id="get-resume">Get my resume</button>
+         <!-- Desktop work section -->
+         <section class="desktop-work">
+            <div class="work"> 
+                <img src="media/Deskktop Snapshoot Portfolio.png" class="work-image" alt="Desktop Snapshoot Portfolio"></img>
+                <div class="tonic">
+                    <h2 id ="project-title">
+                        Tonic
+                    </h2>
+                           
+                        <ul class="project-summary">
+                            <li id="canopy">CANOPY</li>
+                            <li id="back-end"><img src="./media/Counter.png" alt="counter">Back End Dev</li>
+                            <li id="back-end"><img src="./media/Counter.png" alt="counter">2023</li>
+                          </ul>
+                        <div id="project-detail">
+                        <p>
+                            A daily selection of privately personalized reads; no accounts or sign-ups required.
+                        </p>
+                    </div>
+                    <ul class="lang-list">
+                        <li id="lang">html</li>
+                        <li id="lang">css</li>
+                        <li id="lang">javascript</li>
+                      </ul>
+                      <button>See Project</button>
+                </div>
+            </div>
+            <div class="work flip"> 
+                <img src="media/Desktop Snapshoot Portfolio2.png" class="work-image" alt="Desktop Snapshoot Portfolio2"></img>
+                <div class="Multi-post-stories">
+                    <h2 id ="project-title">
+                        Multi-post-stories
+                    </h2>
+                           
+                        <ul class="project-summary">
+                            <li id="canopy">Facebook</li>
+                            <li id="back-end"><img src="./media/Counter.png" alt="counter">Full Stack Dev</li>
+                            <li id="back-end"><img src="./media/Counter.png" alt="counter">2022</li>
+                          </ul>
+                        <div id="project-detail">
+                        <p>
+                            Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+                        </p>
+                    </div>
+                    <ul class="lang-list">
+                        <li id="lang">html</li>
+                        <li id="lang">Ruby on rails</li>
+                        <li id="lang">css</li>
+                        <li id="lang">javascript</li>
+                      </ul>
+                      <button>See Project</button>
+                </div>
+            </div>
+            <div class="work"> 
+                <img src="media/Desktop Snapshoot Portfolio 3.png" class="work-image">
+                <div class="Facebook-360">
+                    <h2 id ="project-title">
+                        Facebook 360
+                    </h2>
+                           
+                        <ul class="project-summary">
+                            <li id="canopy">Facebook</li>
+                            <li id="back-end"><img src="./media/Counter.png" alt="counter">Full Stack Dev</li>
+                            <li id="back-end"><img src="./media/Counter.png" alt="counter">2015</li>
+                          </ul>
+                        <div id="project-detail">
+                        <p>
+                            Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.                        </p>
+                    </div>
+                    <ul class="lang-list">
+                        <li id="lang">html</li>
+                        <li id="lang">Ruby on rails</li>
+                        <li id="lang">css</li>
+                        <li id="lang">javascript</li>
+                      </ul>
+                      <button>See Project</button>
+                </div>
+            </div>
+            <div class="uber work flip"> 
+                <img src="media/Desktop Snapshoot Portfolio4.png" class="work-image">
+                <div class="uber-navigation">
+                    <h2 id ="project-title">
+                        Uber-navigation
+                    </h2>
+                           
+                        <ul class="project-summary">
+                            <li id="canopy">Uber</li>
+                            <li id="back-end"><img src="./media/Counter.png" alt="counter">Lead Developer</li>
+                            <li id="back-end"><img src="./media/Counter.png" alt="counter">2018</li>
+                          </ul>
+                        <div id="project-detail">
+                        <p>
+                            A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.                    </div>
+                    <ul class="lang-list">
+                        <li id="lang">html</li>
+                        <li id="lang">Ruby on rails</li>
+                        <li id="lang">css</li>
+                        <li id="lang">javascript</li>
+                      </ul>
+                      <button>See Project</button>
+                </div>
+            </div>
+       
+          </section>
+<section class="about-group">
+    <section class="about all-content">
+        <h2 id="about-me">About Myself</h2>
+        <p id="about-myself">Hello I'm a software developer! I can help you build a product , feature or website Look
+          through some of my work and experience! If you like what you see and have a project you need coded, don't
+          hesitiate to contact me.</p>
+          <div id="socials">
+            <h2 id="connect">LET'S CONNECT</h2>
+        </div>  
+        <ul id="social-icons"> 
+            <li><a href="https://twitter.com/hombr_el"> <img src="./media/Twitter.svg"></a></li>
+            <li><a href="https://www.linkedin.com/in/john-thiongo-10484347/"> <img src="./media/linkedin.png"></a></li>
+            <li><a href="https://medium.com/@tjaymurianki"> <img src="./media/medium.svg"></a></li>
+            <li><a href="https://github.com/tjay1760"> <img src="./media/github.svg"></a></li>
+            <li><a href="https://angel.co/"> <img src="./media/Vector (3).svg"></a></li>
+        </ul>
+        <button id="get-resume">Get my resume</button>
+    </section>
+    <section class="my-languages all-content">
+        <ul class="prog-languages">
+            <li id="languages-header">Languages</li>
+            <li>
+              <img src="./media/top-arrow.svg" alt="" />
+            </li>
+          </ul>
+          <ul class="languages-list">
+            <li class="item"><img src="./media/JAvascrips.png" width="48" height="48" alt="image">JavaScript</li>
+            <li class="item"><img src="./media/html.png" width="48" height="48" alt="image">HTML</li>
+            <li class="item"><img src="./media/css.png" width="48" height="48" alt="image">CSS</li>
+          </ul>
+          <ul class="frameworks">
+            <li id="frameworks-1">Frameworks<img src="./media/arrowleft.jpeg" alt="arrow"></li>
+            <hr>
+            <li id="frameworks-2">Skills <img src="./media/arrowleft.jpeg" alt="arrow"></li>
+            <hr>
+          </ul>
+    </section>
 </section>
-<section class="my-languages all-content">
-    <ul class="prog-languages">
-        <li id="languages-header">Languages</li>
-        <li>
-          <img src="./media/top-arrow.svg" alt="" />
-        </li>
-      </ul>
-      <ul class="languages-list">
-        <li class="item"><img src="./media/JAvascrips.png" width="48" height="48" alt="image">JavaScript</li>
-        <li class="item"><img src="./media/html.png" alt="image">HTML</li>
-        <li class="item"><img src="./media/css.png" alt="image">CSS</li>
-      </ul>
-      <ul class="frameworks">
-        <li id="frameworks-1">Frameworks<img src="./media/arrowleft.jpeg" alt="arrow"></li>
-        <hr>
-        <li id="frameworks-2">Skills <img src="./media/arrowleft.jpeg" alt="arrow"></li>
-        <hr>
-      </ul>
-</section>
-<section class="contacts all-content">
+
+<section class="contacts">
 <div id="contact-container">
     <h2 id="contact-me">Contact me</h2>
     <p id ="my-contact-me">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
@@ -203,3 +318,5 @@
       <img id="underline" src ="./media/underline.png">
 </div>
 </section>
+</body>
+</html>
