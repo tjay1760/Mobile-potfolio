@@ -26,8 +26,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Mobile portfolio] <a name="about-project"></a>
-
-The project is a landing page of my mobile portfolio. The page gives a brief personal introduction and provides a link to my social media profiles. 
+This repository contains the html and css code for my work porfolio for both the mobile and desktop versions 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -37,11 +36,10 @@ HTML,CSS
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 -About me
--navigation
--Social media links
+-Landing page
+-Contact me
+-Works done
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,9 +54,6 @@ HTML,CSS
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -107,9 +102,9 @@ You can deploy this project using:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] About me page
-- [ ] contact me page
-- [ ] my projects page
+- [ ] Accessibility features
+- [ ] Animation
+- [ ] Backlinks
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
