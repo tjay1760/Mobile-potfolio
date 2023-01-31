@@ -1,3 +1,12 @@
+.logo {
+  text-decoration: none;
+  font-weight: 700px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+  color: #6070ff;
+  font-size: 18px;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     background-color: #e5e5e5;
@@ -249,7 +258,7 @@
     margin-bottom: 25px;
   }
 
-  .about-group {
+  #about-group {
     display: grid;
     grid-template-columns: 3fr 4fr;
     background-color: #fff;
@@ -439,7 +448,7 @@
     padding-left: 0;
   }
 
-  .contacts {
+  #contacts {
     margin-bottom: 0;
     margin-left: 0;
   }
