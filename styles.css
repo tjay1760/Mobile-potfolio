@@ -64,6 +64,10 @@
     color: #344563;
   }
 
+  .nav-link:hover {
+    color: #6070ff;
+  }
+
   .info-box {
     font-family: 'Poppins', sans-serif;
     max-width: 920px;
@@ -153,6 +157,11 @@
     margin-left: 5%;
     display: flex;
     flex-direction: column;
+  }
+
+  .see-project:hover {
+    color: black;
+    cursor: pointer;
   }
 
   #project-title {
@@ -412,6 +421,11 @@
     font-weight: 500;
     letter-spacing: 0.03em;
     line-height: 24px;
+  }
+
+  .get-in-touch:hover {
+    color: black;
+    background-color: whitesmoke;
   }
 
   form {
@@ -722,7 +736,7 @@
   }
 
   #contact-container {
-    background: #6070ff;
+    background: #0669ff;
     border-top-left-radius: 55px;
     width: 100%;
     background-image: url(/media/contact\ form\ shapes-mobile.svg);
@@ -754,11 +768,11 @@
     width: 327px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #ebebff;
+    color: #fff;
     margin-left: 24px;
     margin-right: 24px;
   }
