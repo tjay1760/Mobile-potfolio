@@ -7,16 +7,23 @@
     <title>John's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/c6cb015206.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="drop-down-menu hidden-menu"> 
+        <i class="fa-regular fa-x dropdown-x-icon"></i>
+        <ul class="nav-dropdown">
+            <li class="nav-dropdown-item"><a href="#my-work" class="nav-dropdown-item-link" href="#">Portfolio</a></li>
+            <li class="nav-dropdown-item"><a href="#about-group" class="nav-dropdown-item-link" href="#">About</a></li>
+            <li class="nav-dropdown-item"><a href="#contacts" class="nav-dropdown-item-link" href="#">Contact</a></li>
+        </ul>
+    </div>
     <header>
         <a class="logo" href="#">
             John Murianki
         </a>
-        <nav>
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+        <nav class="hamburger-icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
         </nav>
         <ul class="desk-nav">
             <li class="desk-nav-item"><a href="#my-work" class="nav-link">Portfolio</a></li>
@@ -48,7 +55,7 @@
     </div>
             
     </section>
-    <section id ="my-works" class="mobile-works">
+    <section id ="my-work" class="mobile-works">
     <div class="all-content">
         
             <img src="./media/Snapshoot Portfolio.png" alt="Tonic project snapshot">
@@ -319,4 +326,5 @@
 </div>
 </section>
 </body>
+<script src="./script.js"></script>
 </html>

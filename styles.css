@@ -5,6 +5,10 @@
   line-height: 24px;
   color: #6070ff;
   font-size: 18px;
+  margin-left: 5%;
+}
+body{
+  margin:0px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -439,7 +443,51 @@
   .desk-nav {
     display: none;
   }
-
+  header{
+    display:flex;
+    flex-direction: row;
+  }
+.drop-down-menu{
+  z-index: 10;
+  color: #fff;
+  background-color: #6070ff;
+  height: 110vh;
+  width: 100%;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
+  position: fixed;
+}
+.hidden-menu{
+  display:none;
+}
+.hamburger-icon{
+  margin-right: 5%;
+}
+.show{
+  display:block;
+}
+.fa-bars{
+  font-size: 20px;
+  color:#6070ff;
+}
+.nav-dropdown{
+  list-style-type: none;
+  margin-top: 50px;
+}
+.nav-dropdown-item-link{
+  text-decoration:none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 62px;
+  gap: 30px;
+  font-family: 'Poppins',sans-serif;
+}
+.dropdown-x-icon{
+  float:right;
+  margin-right: 6.5%;
+  margin-top:6.5%;
+}
   .desktop-work {
     display: none;
   }
@@ -543,7 +591,7 @@
     margin: 5px;
   }
 
-  #my-works {
+  #my-work {
     display: grid;
     grid-template-columns: 1fr;
     margin-left: 24px;
