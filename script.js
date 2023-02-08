@@ -198,3 +198,14 @@ popupButtondiv.appendChild(seeSourcebutton);
 popupButtondiv.classList.add('popup-buttondiv');
 // eslint-disable-next-line no-restricted-syntax
 
+for (const button of seeProject) {
+    button.addEventListener('click', openPopup);
+    mobilePopup.appendChild(closeButton);
+    mobilePopup.appendChild(popupImg);
+    mobilePopup.appendChild(projectTopic);
+    mobilePopup.appendChild(projectSummary);
+    mobilePopup.appendChild(projectDetail);
+    mobilePopup.appendChild(langList);
+    mobilePopup.appendChild(popupLine);
+    mobilePopup.appendChild(popupButtondiv);
+  }
