@@ -1,3 +1,9 @@
+html, body {
+  width:100%;
+  margin: 0;
+
+}
+
 .logo {
   text-decoration: none;
   font-weight: 700px;
@@ -7,10 +13,6 @@
   font-size: 18px;
   margin-left: 5%;
   margin-top: 3%;
-}
-
-body {
-  margin: 0;
 }
 
 button {
@@ -41,6 +43,11 @@ button:active {
 }
 
 @media only screen and (min-width: 768px) {
+  .dynamic-desktop{
+    border: 2px solid red;
+    margin:0%;
+
+  }
   .drop-down-menu {
     display: none;
   }
@@ -48,7 +55,19 @@ button:active {
   .hamburger-icon {
     display: none;
   }
-
+  .desktop-popup{
+    position: fixed;
+    top: 0;
+    margin:8%;
+    background-color: #ffffff;
+    z-index:5;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.hide-desktop-popup{
+display:none;
+}
   body {
     background-color: #e5e5e5;
     margin: 0;
@@ -75,8 +94,6 @@ button:active {
     border: 2px solid white;
     background-color: #fff;
     border-radius: 0 0 0 200px;
-    position: relative;
-    top: 70px;
   }
 
   header {
@@ -162,10 +179,13 @@ button:active {
 
   .desktop-work {
     display: grid;
-    justify-content: center;
+    justify-content:center;
     margin-bottom: 0%;
     padding-bottom: 0%;
-    margin-top: 180px;
+    margin:0%;
+    margin-top: 50px;
+    height:100%;
+    width:100%;
   }
 
   .work {
@@ -205,7 +225,7 @@ button:active {
     cursor: pointer;
   }
 
-  #project-title {
+  .project-title {
     font-size: 40px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
@@ -239,7 +259,7 @@ button:active {
     color: #344563;
   }
 
-  #back-end {
+  #back-end, #Year {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -313,11 +333,10 @@ button:active {
     grid-template-columns: 3fr 4fr;
     background-color: #fff;
     border-top-right-radius: 100px;
+    position:relative;
     width: 100%;
     margin-left: 0%;
     height: 700px;
-    position: relative;
-    z-index: -1;
     bottom: -85px;
   }
 
@@ -415,8 +434,7 @@ button:active {
     flex-direction: column;
     align-items: center;
     border-top-left-radius: 100px;
-    position: relative;
-    z-index: 4;
+    position:relative;
   }
 
   #contact-me {
@@ -480,7 +498,7 @@ button:active {
   .desk-nav {
     display: none;
   }
-  .hide-mobile-popup{
+  .desktop-work{
     display:none;
   }
 .mobile-popup{
@@ -496,12 +514,25 @@ button:active {
     flex-direction: column;
     justify-content: space-around;
     padding:5%;
+    margin:5%;
+    margin-top: 10%;
   }
   .popup-line{
 width: 90%;
 height:2px;
 background-color: #ebecf0;
 margin:5%;
+}
+.popup-project-topic{
+  margin:0;
+}
+
+.popup-close{
+  position:absolute;
+  top:3%;
+  right:5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#67798e;
 }
 .popup-buttondiv{
   display:flex;
@@ -515,8 +546,6 @@ margin:5%;
   flex-direction: row;
   border:1px solid #396df2;
   margin-top: 0%;
-
-
 }
   }
   .drop-down-menu {
@@ -542,7 +571,13 @@ margin:5%;
   .show {
     display: block;
   }
-
+  .dynamic-mobile{
+height:100%;
+width:100%;
+  }
+  .hide-mobile-popup{
+    display:none;
+  }
   .fa-bars {
     font-size: 20px;
     color: #6070ff;
@@ -567,10 +602,6 @@ margin:5%;
     float: right;
     margin-right: 6.5%;
     margin-top: 6.5%;
-  }
-
-  .desktop-work {
-    display: none;
   }
 
   .all-content {
@@ -608,7 +639,25 @@ margin:5%;
     width: 100%;
     height: 44px;
   }
-
+.card{
+  display:flex;
+  justify-content: space-around;
+  margin: 5%;
+  gap:5%;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-title{
+  margin:0%;
+  margin-top:5%;
+}
+.see-project{
+  margin-bottom:20%;
+  margin-left:0%;
+}
   #about {
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -678,9 +727,12 @@ margin:5%;
     font-style: normal;
     color: #172b4d;
   }
-
+li{
+  list-style-type:none;
+}
   .project-summary {
     padding-left: 0;
+    display:flex;
   }
 
   ul.project-summary {
@@ -701,7 +753,7 @@ margin:5%;
     color: #344563;
   }
 
-  #back-end {
+  #back-end, #Year {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -895,4 +947,4 @@ margin:5%;
     letter-spacing: 0.03em;
     line-height: 24px;
   }
-}
+
