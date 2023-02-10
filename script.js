@@ -375,6 +375,9 @@ for (let i = 0; i < bigbuttonsArray.length; i++) {
     desktoplangList.appendChild(desktopcss);
     desktoplangList.appendChild(desktopjavascript);
 
+    const desktoppopupLine = document.createElement('div');
+    desktoppopupLine.classList.add('popup-line');
+
     const desktoppopupButtondiv = document.createElement('div');
     const desktopseeLivebutton = document.createElement('button');
     desktopseeLivebutton.innerHTML = 'See live';
@@ -394,6 +397,7 @@ for (let i = 0; i < bigbuttonsArray.length; i++) {
 
     popupcontentbox.appendChild(desktopprojectDetail);
     langbuttonholder.appendChild(desktoplangList);
+    langbuttonholder.appendChild(desktoppopupLine);
     langbuttonholder.appendChild(desktoppopupButtondiv);
     popupcontentbox.appendChild(langbuttonholder);
     desktopPopupcard.appendChild(popupcontentbox);

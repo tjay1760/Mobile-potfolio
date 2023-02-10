@@ -62,17 +62,36 @@ button:active {
   .desktop-popup {
     position: fixed;
     top: 0;
-    margin: 5%;
+    margin: 1%;
     background-color: #fff;
     z-index: 5;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 90%;
-    height: 100vh;
+    max-height: 85vh;
+    overflow-y: auto;
     border-radius: 16px;
     padding: 2%;
-    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .popupbutton-child {
+    color: #396df2;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #396df2;
+    margin-top: 0%;
+    padding: 1%;
+    justify-content: center;
+  }
+
+  .popup-line {
+    width: 90%;
+    height: 2px;
+    background-color: #ebecf0;
+    margin: 5%;
   }
 
   .desktop-popup-img {
@@ -115,6 +134,7 @@ button:active {
     right: 5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #67798e;
+    cursor: pointer;
   }
 
   body {
@@ -582,6 +602,7 @@ button:active {
     right: 5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #67798e;
+    cursor: pointer;
   }
 
   .popup-buttondiv {
@@ -594,11 +615,12 @@ button:active {
     font-weight: 500;
     font-size: 15px;
     display: flex;
-    width: 250px;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #396df2;
     margin-top: 0%;
-    padding: 2%;
+    padding: 2.7%;
   }
 }
 
