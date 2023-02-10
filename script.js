@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 /* eslint-disable no-loop-func */
 const hamburger = document.querySelector('.hamburger-icon');
 const Dropdownmenu = document.querySelector('.hidden-menu');
@@ -23,6 +24,7 @@ const data = [
     year: '2023',
     detail: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     languages: ['html', 'css', 'javascript'],
+    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
   },
   {
     imgSrc: './media/Snapshoot Portfolio (1).png',
@@ -33,6 +35,7 @@ const data = [
     year: '2023',
     detail: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     languages: ['html', 'css', 'javascript'],
+    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
   },
   {
     imgSrc: './media/Snapshoot Portfolio (2).png',
@@ -43,6 +46,7 @@ const data = [
     year: '2023',
     detail: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     languages: ['html', 'css', 'javascript'],
+    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
   },
   {
     imgSrc: './media/Snapshoot Portfolio (3).png',
@@ -53,6 +57,7 @@ const data = [
     year: '2023',
     detail: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     languages: ['html', 'css', 'javascript'],
+    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
   },
 ];
 const works = [
@@ -64,6 +69,7 @@ const works = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'css', 'javascript'],
     image: 'media/Deskktop Snapshoot Portfolio.png',
+    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
   },
   {
     title: 'Multi-post-stories',
@@ -73,6 +79,7 @@ const works = [
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
     image: 'media/Desktop Snapshoot Portfolio2.png',
+    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
   },
   {
     title: 'Facebook 360',
@@ -82,6 +89,7 @@ const works = [
     description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
     image: 'media/Desktop Snapshoot Portfolio 3.png',
+    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
   },
   {
     title: 'Uber-navigation',
@@ -91,6 +99,7 @@ const works = [
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
     image: 'media/Desktop Snapshoot Portfolio4.png',
+    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
   },
 ];
 
@@ -266,7 +275,7 @@ data.forEach((item) => {
 });
 const dynamicMobileSection = document.getElementById('dynamic-mobile');
 dynamicMobileSection.appendChild(workSection);
-//Desktop Pop-up
+// Desktop Pop-up
 const desktopPopup = document.getElementById('desktop-popup');
 
 function desktopopenPopup() {
@@ -276,7 +285,7 @@ function desktopclosePopup() {
   desktopPopup.classList.add('hide-desktop-popup');
 }
 
-  //closing button
+// closing button
 const desktopcloseButton = document.createElement('div');
 desktopcloseButton.classList.add('popup-close');
 desktopcloseButton.innerHTML = 'X';
@@ -286,11 +295,10 @@ const bigbuttons = document.querySelectorAll('.see-project1');
 const bigbuttonsArray = Array.from(bigbuttons);
 
 let desktopisPopupOpen = false;
+// eslint-disable-next-line no-plusplus
 for (let i = 0; i < bigbuttonsArray.length; i++) {
   bigbuttonsArray[i].addEventListener('click', () => {
     if (desktopisPopupOpen) {
-      desktopPopup.removeChild(desktopPopup.lastChild);
-      desktopPopup.removeChild(desktopPopup.lastChild);
       desktopPopup.removeChild(desktopPopup.lastChild);
       desktopPopup.removeChild(desktopPopup.lastChild);
       desktopPopup.removeChild(desktopPopup.lastChild);
@@ -302,6 +310,7 @@ for (let i = 0; i < bigbuttonsArray.length; i++) {
     desktopprojectTopic.classList.add('popup-project-topic');
     desktopprojectTopic.innerHTML = works[i].title;
     desktopprojectTopic.classList.add('project-title');
+    desktopPopup.appendChild(desktopcloseButton);
     desktopPopup.appendChild(desktopprojectTopic);
     const desktopprojectSummary = document.createElement('ul');
     desktopprojectSummary.classList.add('project-summary');
@@ -333,19 +342,23 @@ for (let i = 0; i < bigbuttonsArray.length; i++) {
     desktopprojectSummary.appendChild(desktopyear);
     desktopPopup.appendChild(desktopprojectSummary);
 
-
     const desktoppopupImg = document.createElement('img');
+    desktoppopupImg.classList.add('desktop-popup-img');
     desktoppopupImg.src = works[i].image;
-    //desktoppopupImg.alt = works[i].imgAlt;
     desktopPopup.appendChild(desktoppopupImg);
     const desktopprojectDetail = document.createElement('div');
     desktopprojectDetail.id = 'project-detail';
     const desktopdetailPara = document.createElement('p');
-    desktopdetailPara.innerHTML = works[i].detail;
+    desktopdetailPara.innerHTML = works[i].lorem;
     desktopprojectDetail.appendChild(desktopdetailPara);
-    desktopPopup.appendChild(desktopprojectDetail);
     const desktoplangList = document.createElement('ul');
     desktoplangList.classList.add('lang-list');
+
+    const popupcontentbox = document.createElement('div');
+    popupcontentbox.classList.add('popup-content-box');
+
+    const langbuttonholder = document.createElement('div');
+    langbuttonholder.classList.add('lang-button-holder');
 
     const desktophtml = document.createElement('li');
     desktophtml.id = 'lang';
@@ -362,10 +375,7 @@ for (let i = 0; i < bigbuttonsArray.length; i++) {
     desktoplangList.appendChild(desktophtml);
     desktoplangList.appendChild(desktopcss);
     desktoplangList.appendChild(desktopjavascript);
-    desktopPopup.appendChild(desktoplangList);
-    const desktoppopupLine = document.createElement('div');
-    desktoppopupLine.classList.add('popup-line');
-    desktopPopup.appendChild(desktoppopupLine);
+
     const desktoppopupButtondiv = document.createElement('div');
     const desktopseeLivebutton = document.createElement('button');
     desktopseeLivebutton.innerHTML = 'See live';
@@ -382,7 +392,12 @@ for (let i = 0; i < bigbuttonsArray.length; i++) {
     desktoppopupButtondiv.appendChild(desktopseeLivebutton);
     desktoppopupButtondiv.appendChild(desktopseeSourcebutton);
     desktoppopupButtondiv.classList.add('popup-buttondiv');
-    desktopPopup.appendChild(desktoppopupButtondiv);
+
+    popupcontentbox.appendChild(desktopprojectDetail);
+    langbuttonholder.appendChild(desktoplangList);
+    langbuttonholder.appendChild(desktoppopupButtondiv);
+    popupcontentbox.appendChild(langbuttonholder);
+    desktopPopup.appendChild(popupcontentbox);
     desktopopenPopup();
     desktopisPopupOpen = true;
   });
@@ -424,7 +439,7 @@ for (let i = 0; i < buttonsArray.length; i++) {
     const projectTopic = document.createElement('h2');
     projectTopic.classList.add('popup-project-topic');
     projectTopic.innerHTML = data[i].title;
-    projectTopic.classList.add('project-title');
+    projectTopic.id = 'project-title';
     mobilePopup.appendChild(projectTopic);
     const projectSummary = document.createElement('ul');
     projectSummary.classList.add('project-summary');
