@@ -42,6 +42,10 @@ button:active {
   color: #fff;
 }
 
+.blur {
+  filter: blur(10px);
+}
+
 @media only screen and (min-width: 768px) {
   .dynamic-desktop {
     margin: 0%;
@@ -68,12 +72,12 @@ button:active {
     height: 100vh;
     border-radius: 16px;
     padding: 2%;
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 
   .desktop-popup-img {
     width: 100%;
-    height: 50%;
+    height: 100%;
   }
 
   .popup-content-box {
@@ -96,6 +100,15 @@ button:active {
     justify-content: center;
   }
 
+  .desktoppopup-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+  }
+
   .popup-close {
     position: absolute;
     top: 3%;
@@ -103,6 +116,7 @@ button:active {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #67798e;
   }
+
 
   body {
     background-color: #e5e5e5;
@@ -527,6 +541,10 @@ button:active {
     display: none;
   }
 
+  .desktop-popup {
+    display: none;
+  }
+
   .desktop-work {
     display: none;
   }
@@ -577,9 +595,11 @@ button:active {
     font-weight: 500;
     font-size: 15px;
     display: flex;
+    width: 250px;
     flex-direction: row;
     border: 1px solid #396df2;
     margin-top: 0%;
+    padding: 2%;
   }
 }
 

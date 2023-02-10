@@ -102,7 +102,6 @@ const works = [
     lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
   },
 ];
-
 const DesktopWorksection = document.createElement('section');
 DesktopWorksection.id = 'my-work';
 DesktopWorksection.classList.add('desktop-work');
@@ -296,22 +295,22 @@ const bigbuttonsArray = Array.from(bigbuttons);
 
 let desktopisPopupOpen = false;
 // eslint-disable-next-line no-plusplus
+const mypage = document.getElementsByClassName('my-page');
+
 for (let i = 0; i < bigbuttonsArray.length; i++) {
   bigbuttonsArray[i].addEventListener('click', () => {
     if (desktopisPopupOpen) {
       desktopPopup.removeChild(desktopPopup.lastChild);
       desktopPopup.removeChild(desktopPopup.lastChild);
-      desktopPopup.removeChild(desktopPopup.lastChild);
-      desktopPopup.removeChild(desktopPopup.lastChild);
-      desktopPopup.removeChild(desktopPopup.lastChild);
     }
-
+    const desktopPopupcard = document.createElement('div');
+    desktopPopupcard.classList.add('desktoppopup-card');
     const desktopprojectTopic = document.createElement('h2');
     desktopprojectTopic.classList.add('popup-project-topic');
     desktopprojectTopic.innerHTML = works[i].title;
     desktopprojectTopic.classList.add('project-title');
     desktopPopup.appendChild(desktopcloseButton);
-    desktopPopup.appendChild(desktopprojectTopic);
+    desktopPopupcard.appendChild(desktopprojectTopic);
     const desktopprojectSummary = document.createElement('ul');
     desktopprojectSummary.classList.add('project-summary');
 
@@ -340,12 +339,12 @@ for (let i = 0; i < bigbuttonsArray.length; i++) {
     desktopprojectSummary.appendChild(desktopcanopy);
     desktopprojectSummary.appendChild(desktopbackEndDev);
     desktopprojectSummary.appendChild(desktopyear);
-    desktopPopup.appendChild(desktopprojectSummary);
+    desktopPopupcard.appendChild(desktopprojectSummary);
 
     const desktoppopupImg = document.createElement('img');
     desktoppopupImg.classList.add('desktop-popup-img');
     desktoppopupImg.src = works[i].image;
-    desktopPopup.appendChild(desktoppopupImg);
+    desktopPopupcard.appendChild(desktoppopupImg);
     const desktopprojectDetail = document.createElement('div');
     desktopprojectDetail.id = 'project-detail';
     const desktopdetailPara = document.createElement('p');
@@ -397,8 +396,17 @@ for (let i = 0; i < bigbuttonsArray.length; i++) {
     langbuttonholder.appendChild(desktoplangList);
     langbuttonholder.appendChild(desktoppopupButtondiv);
     popupcontentbox.appendChild(langbuttonholder);
-    desktopPopup.appendChild(popupcontentbox);
+    desktopPopupcard.appendChild(popupcontentbox);
+    desktopPopup.appendChild(desktopPopupcard);
     desktopopenPopup();
+    for (let i = 0; i < mypage.length; i++) {
+      mypage[i].style.filter = 'blur(10px)';
+    }
+    desktopcloseButton.addEventListener('click', () => {
+      for (let i = 0; i < mypage.length; i++) {
+        mypage[i].style.filter = 'none';
+      }
+    });
     desktopisPopupOpen = true;
   });
 }
@@ -520,6 +528,14 @@ for (let i = 0; i < buttonsArray.length; i++) {
     popupButtondiv.appendChild(seeSourcebutton);
     popupButtondiv.classList.add('popup-buttondiv');
     mobilePopup.appendChild(popupButtondiv);
+    for (let i = 0; i < mypage.length; i++) {
+      mypage[i].style.filter = 'blur(10px)';
+    }
+    closeButton.addEventListener('click', () => {
+      for (let i = 0; i < mypage.length; i++) {
+        mypage[i].style.filter = 'none';
+      }
+    });
     openPopup();
     isPopupOpen = true;
   });
