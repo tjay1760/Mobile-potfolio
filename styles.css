@@ -1035,3 +1035,9 @@ ul.project-summary li img {
   letter-spacing: 0.03em;
   line-height: 24px;
 }
+
+.error-message {
+  color: red;
+  background: white;
+  font-size: 20px;
+}
