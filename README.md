@@ -9,12 +9,6 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -40,6 +34,7 @@ HTML,CSS
 -Landing page
 -Contact me
 -Works done
+-Popup windows
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,34 +50,10 @@ HTML,CSS
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-### Prerequisites
-
-In order to run this project you need:
-
-
 ### Setup
 
 Clone this repository to your desired folder:
 cd https://github.com/tjay1760/Mobile-potfolio.git
-### Install
-
-Install this project with:
-
-
-### Usage
-
-To run the project, execute the following command:
-
-
-### Run tests
-
-To run tests, run the following command:
-
-
-### Deployment
-
-You can deploy this project using:
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -105,6 +76,7 @@ You can deploy this project using:
 - [ ] Accessibility features
 - [ ] Animation
 - [ ] Backlinks
+- [ ] Form validation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
