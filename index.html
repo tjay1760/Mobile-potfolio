@@ -110,18 +110,19 @@
 <div id="contact-container">
     <h2 id="contact-me">Contact me</h2>
     <p id ="my-contact-me">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-    <form class="form" action="https://formspree.io/f/xyyazqwv" method="post">
+    <form class="my-contact-form" id="my-contact-form" action="https://formspree.io/f/xyyazqwv" method="post">
         <div>
           <input class="my-name" type="text" name="myName" placeholder="Your name" maxlength="30" required>
         </div><br>
         <div>
-          <input class="contactform-email" id="contactform-email" type="email" name="myEmail" placeholder="myEmail@gmail.com" required>
+          <input class="my-name contact-form-email" id="contact-form-email" type="email" name="myEmail" placeholder="myEmail@gmail.com" required>
         </div><br>
         <div>
-          <textarea class="my-message" name="myText" maxlength="500" cols="30" rows="10"
+          <textarea class="my-message" id="contact-form-message" name="myText" maxlength="500" cols="30" rows="10"
             placeholder="Write your message here" required></textarea>
         </div>
         <br>
+         <p class="contact-form-error" id="contact-form-error">You should write your email in lowercase</p>
         <button type="submit" class="get-in-touch">Get in touch</button>
       </form>
       <img id="underline" src ="./media/underline.png">

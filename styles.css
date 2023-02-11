@@ -42,8 +42,9 @@ button:active {
   color: #fff;
 }
 
-.blur {
-  filter: blur(10px);
+.contact-form-error {
+  display: none;
+  color: red;
 }
 
 @media only screen and (min-width: 768px) {
