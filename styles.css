@@ -42,8 +42,9 @@ button:active {
   color: #fff;
 }
 
-.blur {
-  filter: blur(10px);
+.contact-form-error {
+  display: none;
+  color: red;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1034,10 +1035,4 @@ ul.project-summary li img {
   font-weight: 500;
   letter-spacing: 0.03em;
   line-height: 24px;
-}
-
-.error-message {
-  color: red;
-  background: white;
-  font-size: 20px;
 }
