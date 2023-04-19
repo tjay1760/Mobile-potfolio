@@ -89,7 +89,7 @@ button:active {
     border-radius: 20px;
     text-decoration: none;
     align-items: center;
-    width:50%;
+    width: 50%;
   }
 
   .popup-line {
@@ -122,7 +122,7 @@ button:active {
   .popup-buttondiv {
     display: flex;
     justify-content: center;
-    gap:10%;
+    gap: 10%;
     width: 70%;
   }
 
