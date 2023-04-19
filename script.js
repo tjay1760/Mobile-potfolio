@@ -16,90 +16,100 @@ for (let i = 0; i < hidemenu.length; i++) {
 }
 const data = [
   {
-    imgSrc: './media/Snapshoot Portfolio.png',
-    alt: 'Tonic project snapshot',
-    title: 'Tonic',
-    canopy: 'CANOPY',
-    backEnd: 'Back End Dev',
+    imgSrc: './media/tjaypodcastmobile.jpeg',
+    alt: 'Tjaypodcast',
+    title: 'Tjay podcast',
+    canopy: 'TJAY',
+    backEnd: 'Full Stack Dev',
     year: '2023',
-    detail: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'javascript'],
-    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
+    detail: 'Every day we are intrigued by the metaphysical. Inspired by the best in us and driven by intution to achieve feats that appear to be beyond our abilities. In this podcast, we explore various elements and aspects of reality that would be often overlooked by conventional practice and media.',
+    languages: ['html', 'css', 'wrdpress'],
+    lorem: 'Every day we are intrigued by the metaphysical. Inspired by the best in us and driven by intution to achieve feats that appear to be beyond our abilities. In this podcast, we explore various elements and aspects of reality that would be often overlooked by conventional practice and media.',
   },
   {
-    imgSrc: './media/Snapshoot Portfolio (1).png',
-    alt: 'Multi post stories project snapshot',
-    title: 'Multi-Post Stories',
-    canopy: 'CANOPY',
-    backEnd: 'Back End Dev',
+    imgSrc: './media/Awsomebooksmobile.jpeg',
+    alt: 'Awsome books',
+    title: 'Awesome books',
+    canopy: 'AWESOME BOOKS',
+    backEnd: 'Full stack dev',
     year: '2023',
-    detail: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    detail: 'A book catalogue for managing your books',
     languages: ['html', 'css', 'javascript'],
-    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
+    lorem: 'A book catalogue for managing your books',
   },
   {
-    imgSrc: './media/Snapshoot Portfolio (2).png',
-    alt: 'Tonic project snapshot',
-    title: 'Tonic',
-    canopy: 'CANOPY',
+    imgSrc: '/media/todolistmobile.jpeg',
+    alt: 'Todolist',
+    title: 'Todolist',
+    canopy: 'TODOLIST',
     backEnd: 'Back End Dev',
     year: '2023',
-    detail: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    detail: 'A web app that helps one manage their tasks',
     languages: ['html', 'css', 'javascript'],
-    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
+    lorem: 'A web app that helps one manage their tasks',
   },
   {
-    imgSrc: './media/Snapshoot Portfolio (3).png',
-    alt: 'Multi post stories Project snapshot',
-    title: 'Multi-Post Stories',
-    canopy: 'CANOPY',
-    backEnd: 'Back End Dev',
+    imgSrc: '/media/ShakyscookoutMobile.jpeg',
+    alt: 'Shakys cookout',
+    title: 'Shakys cookout',
+    canopy: 'Shakys Cookout',
+    backEnd: 'Full stack dev',
     year: '2023',
-    detail: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    detail: 'An event page for the shakys cookout',
     languages: ['html', 'css', 'javascript'],
-    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
+    lorem: 'Shakys Cookout is an annual event that brings together people from various industries to network, socialize, and enjoy delicious food. It provides an opportunity for professionals to come together exchange ideas and build relationships in a relaxed and fun environment.',
+    liveLink: '',
+    gitLink: '',
   },
 ];
 const works = [
   {
-    title: 'Tonic',
-    company: 'CANOPY',
-    role: 'Back End Dev',
+    title: 'Shakys Cookout',
+    company: 'SHAKYS',
+    role: 'Front end development',
     year: '2023',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: 'The page is a landing page for the Shakys Cookout event',
     technologies: ['html', 'css', 'javascript'],
-    image: 'media/Deskktop Snapshoot Portfolio.png',
-    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
+    image: './media/Shakyscookout.png',
+    lorem: 'Shakys Cookout is an annual event that brings together people from various industries to network, socialize, and enjoy delicious food. It provides an opportunity for professionals to come together exchange ideas and build relationships in a relaxed and fun environment.',
+    liveLink: 'https://gorgeous-youtiao-23872f.netlify.app/about.html',
+    gitLink: 'https://github.com/tjay1760/Shakys-Cookout',
   },
   {
-    title: 'Multi-post-stories',
-    company: 'Facebook',
+    title: 'To-do list',
+    company: 'Private Development',
+    role: 'Full stack development',
+    year: '2023',
+    description: 'The to do list web app aloows users to enter their to-do items and add them to their to-do list.',
+    technologies: ['html', 'css', 'javascript'],
+    image: '/media/TodoList.png',
+    lorem: 'This to do list application allows users to enter their to-do items and add them to their to-do list.',
+    liveLink: 'https://silver-hotteok-3a00cf.netlify.app/',
+    gitLink: 'https://github.com/tjay1760/To-do-List',
+  },
+  {
+    title: 'Awesome books',
+    company: 'Private Development',
     role: 'Full Stack Dev',
-    year: '2022',
-    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
-    image: 'media/Desktop Snapshoot Portfolio2.png',
-    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
+    year: '2023',
+    description: 'an application allows users to keep track of their books',
+    technologies: ['html', 'css', 'javascript'],
+    image: './media/Awsomebooks.png',
+    lorem: 'An application that allows one to add books an manage them all together',
+    liveLink: 'https://frolicking-sfogliatella-66dcdc.netlify.app/',
+    gitLink: 'https://github.com/tjay1760/Awesome-books',
   },
   {
-    title: 'Facebook 360',
-    company: 'Facebook',
-    role: 'Full Stack Dev',
-    year: '2015',
-    description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
-    image: 'media/Desktop Snapshoot Portfolio 3.png',
-    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
-  },
-  {
-    title: 'Uber-navigation',
-    company: 'Uber',
+    title: 'Tjay Podcast',
+    company: 'Tjaypod',
     role: 'Lead Developer',
-    year: '2018',
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
-    image: 'media/Desktop Snapshoot Portfolio4.png',
-    lorem: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum istry. Lorem Ipsum han printer took a galley of type a a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 15',
+    year: '2023',
+    description: 'A project that allows users to create podcasts',
+    technologies: ['wordpress, html', 'css'],
+    image: './media/Tjaypod.png',
+    lorem: 'Every day we are intrigued by the metaphysical. Inspired by the best in us and driven by intution to achieve feats that appear to be beyond our abilities. In this podcast, we explore various elements and aspects of reality that would be often overlooked by conventional practice and media.',
+    liveLink: 'https://thetjaypod.wordpress.com/',
+    gitLink: 'https://thetjaypod.wordpress.com/',
   },
 ];
 const DesktopWorksection = document.createElement('section');
@@ -379,18 +389,23 @@ for (let i = 0; i < bigbuttonsArray.length; i++) {
     desktoppopupLine.classList.add('popup-line');
 
     const desktoppopupButtondiv = document.createElement('div');
-    const desktopseeLivebutton = document.createElement('button');
+    const desktopseeLivebutton = document.createElement('a');
     desktopseeLivebutton.innerHTML = 'See live';
     const desktopseeLivebuttonimg = document.createElement('img');
     desktopseeLivebuttonimg.src = './media/Seelive.png';
     desktopseeLivebutton.appendChild(desktopseeLivebuttonimg);
+
+    desktopseeLivebutton.href = works[i].liveLink;
+    desktopseeLivebutton.target = '_blank';
     const desktopseeSourcebuttonimg = document.createElement('img');
     desktopseeLivebutton.classList.add('popupbutton-child');
-    const desktopseeSourcebutton = document.createElement('button');
+    const desktopseeSourcebutton = document.createElement('a');
     desktopseeSourcebutton.innerHTML = 'See source';
     desktopseeSourcebuttonimg.src = './media/Seesource.png';
     desktopseeSourcebutton.classList.add('popupbutton-child');
     desktopseeSourcebutton.appendChild(desktopseeSourcebuttonimg);
+    desktopseeSourcebutton.href = works[i].gitLink;
+    desktopseeSourcebutton.target = '_blank';
     desktoppopupButtondiv.appendChild(desktopseeLivebutton);
     desktoppopupButtondiv.appendChild(desktopseeSourcebutton);
     desktoppopupButtondiv.classList.add('popup-buttondiv');

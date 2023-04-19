@@ -82,10 +82,14 @@ button:active {
     font-size: 15px;
     display: flex;
     flex-direction: row;
-    border: 1px solid #396df2;
+    border: 2px solid #396df2;
     margin-top: 0%;
-    padding: 1%;
+    padding: 2%;
     justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
+    align-items: center;
+    width: 50%;
   }
 
   .popup-line {
@@ -118,6 +122,8 @@ button:active {
   .popup-buttondiv {
     display: flex;
     justify-content: center;
+    gap: 10%;
+    width: 70%;
   }
 
   .desktoppopup-card {
