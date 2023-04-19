@@ -42,7 +42,7 @@ HTML,CSS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://tjay1760.github.io/Mobile-potfolio/)
+- [Live Demo Link](https://deploy-preview-18--shiny-crumble-fa4316.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
