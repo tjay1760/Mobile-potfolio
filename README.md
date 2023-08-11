@@ -64,6 +64,7 @@ cd https://github.com/tjay1760/Mobile-potfolio.git
 
 - GitHub:https://github.com/tjay1760
 - LinkedIn: https://www.linkedin.com/feed/
+- Twitter: https://twitter.com/TjayPod
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
