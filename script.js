@@ -17,8 +17,8 @@ for (let i = 0; i < hidemenu.length; i++) {
 const data = [
   {
     imgSrc: './media/tjaypodcastmobile.jpeg',
-    alt: 'Tjaypodcast',
-    title: 'Tjay podcast',
+    alt: 'The Tjay Pod',
+    title: 'Tjay Pod',
     canopy: 'TJAY',
     backEnd: 'Full Stack Dev',
     year: '2023',
